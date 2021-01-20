@@ -28,7 +28,7 @@ var cadenaJson_2 = ""
 var name = ""
 var tipo = ""
 
-var filaInicial = 6
+var filaInicial = 5
 
 func main()  {
 	// Lo primero es verificar el archivo excel exista en el directorio
@@ -88,8 +88,9 @@ func leerInputFileXlsx() {
 		if(tipo == "CHAR") {
 			tipo = "String"
 			cadenaYml += "          type: '"+tipo+"'\n"
+		// Fix string input	
 		} else if tipo == "NUMERIC"{
-			tipo = "Numeric"
+			tipo = "String"
 			cadenaYml += "          type: '"+tipo+"'\n"
 		}		
 		cadenaYml += "          position: "+position+"\n"
@@ -132,7 +133,7 @@ func leerInputFileXlsx() {
 	}
 
 	// Secrea el output del .yml
-	cadenaYml += "  - output:\n"
+	cadenaYml += "    output:\n"
 	cadenaYml += "      matchers:\n"
 	cadenaYml += "        - type: 'returnValue'\n"
 	cadenaYml += "          condition: 'equal'\n"
