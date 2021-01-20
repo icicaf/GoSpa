@@ -1,0 +1,3442 @@
+views:
+  - input:
+      fields:
+        - name: 'masInformacion'
+          type: 'String'
+          position: 4
+          length: 1
+          defaultValue: ' '
+        - name: 'flag1'
+          type: 'String'
+          position: 5
+          length: 1
+          defaultValue: ' '
+        - name: 'flag2'
+          type: 'String'
+          position: 6
+          length: 1
+          defaultValue: ' '
+        - name: 'flag3'
+          type: 'String'
+          position: 7
+          length: 1
+          defaultValue: ' '
+        - name: 'canal'
+          type: 'String'
+          position: 8
+          length: 4
+        - name: 'mode'
+          type: 'String'
+          position: 12
+          length: 1
+          defaultValue: ' '
+        - name: 'error01'
+          type: 'Numeric'
+          position: 13
+          length: 5
+          defaultValue: '+0000'
+        - name: 'error02'
+          type: 'Numeric'
+          position: 18
+          length: 5
+          defaultValue: '+0000'
+        - name: 'error03'
+          type: 'Numeric'
+          position: 23
+          length: 5
+          defaultValue: '+0000'
+        - name: 'error04'
+          type: 'Numeric'
+          position: 28
+          length: 5
+          defaultValue: '+0000'
+        - name: 'errorCodigo05'
+          type: 'Numeric'
+          position: 33
+          length: 5
+          defaultValue: '+0000'
+        - name: 'descripcionError01'
+          type: 'String'
+          position: 38
+          length: 50
+          defaultValue: '                                                  '
+        - name: 'descripcionError02'
+          type: 'String'
+          position: 88
+          length: 50
+          defaultValue: '                                                  '
+        - name: 'descripcionError03'
+          type: 'String'
+          position: 138
+          length: 50
+          defaultValue: '                                                  '
+        - name: 'descripcionError04'
+          type: 'String'
+          position: 188
+          length: 50
+          defaultValue: '                                                  '
+        - name: 'descripcionError05'
+          type: 'String'
+          position: 238
+          length: 50
+          defaultValue: '                                                  '
+        - name: 'numeroPrestamo'
+          type: 'Numeric'
+          position: 288
+          length: 13
+          defaultValue: '+000000000000'
+        - name: 'numeroCliente'
+          type: 'Numeric'
+          position: 301
+          length: 10
+        - name: 'numeroRut'
+          type: 'String'
+          position: 311
+          length: 15
+        - name: 'codigoOficial'
+          type: 'String'
+          position: 326
+          length: 4
+          defaultValue: '3716'
+        - name: 'codigoBanco'
+          type: 'String'
+          position: 330
+          length: 2
+          defaultValue: '01'
+        - name: 'numeroSucursal'
+          type: 'Numeric'
+          position: 332
+          length: 4
+          defaultValue: '+054'
+        - name: 'codigoMoneda'
+          type: 'String'
+          position: 336
+          length: 3
+          defaultValue: 'CLP'
+        - name: 'cuentaContable'
+          type: 'Numeric'
+          position: 339
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'codigoProducto'
+          type: 'String'
+          position: 356
+          length: 4
+        - name: 'montoDelCredito'
+          type: 'Numeric'
+          position: 360
+          length: 17
+        - name: 'fechaApertura'
+          type: 'Numeric'
+          position: 377
+          length: 7
+        - name: 'fechaVencimiento'
+          type: 'Numeric'
+          position: 384
+          length: 7
+        - name: 'fechaPrimerPagoInteres'
+          type: 'Numeric'
+          position: 391
+          length: 7
+        - name: 'fechaPrimerPagoPrincipal'
+          type: 'Numeric'
+          position: 398
+          length: 7
+        - name: 'numeroCuotasInteres'
+          type: 'Numeric'
+          position: 405
+          length: 4
+        - name: 'numeroCuotasPrincipal'
+          type: 'Numeric'
+          position: 409
+          length: 4
+        - name: 'frecuenciaPagosInteres'
+          type: 'Numeric'
+          position: 413
+          length: 5
+          defaultValue: '+0001'
+        - name: 'termPagosInteres'
+          type: 'String'
+          position: 418
+          length: 1
+          defaultValue: 'M'
+        - name: 'frecuenciaPagosPrincipal'
+          type: 'Numeric'
+          position: 419
+          length: 5
+          defaultValue: '+0001'
+        - name: 'termPagosPrincipal'
+          type: 'String'
+          position: 424
+          length: 1
+          defaultValue: 'M'
+        - name: 'cicloPagoCapital'
+          type: 'String'
+          position: 425
+          length: 3
+          defaultValue: 'SC1'
+        - name: 'cicloPagoInteres'
+          type: 'String'
+          position: 428
+          length: 3
+          defaultValue: 'SC1'
+        - name: 'tasaBase'
+          type: 'Numeric'
+          position: 431
+          length: 11
+        - name: 'tasaFlotante'
+          type: 'Numeric'
+          position: 442
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'tipoTasaFlotante'
+          type: 'String'
+          position: 453
+          length: 2
+          defaultValue: '  '
+        - name: 'numeroTablaFlotante'
+          type: 'String'
+          position: 455
+          length: 2
+          defaultValue: '  '
+        - name: 'tablaCargos'
+          type: 'String'
+          position: 457
+          length: 2
+          defaultValue: '  '
+        - name: 'descripcionCargo01'
+          type: 'String'
+          position: 459
+          length: 30
+          defaultValue: 'IMPUESTO DE TIMBRE            '
+        - name: 'descripcionCargo02'
+          type: 'String'
+          position: 489
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo03'
+          type: 'String'
+          position: 519
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo04'
+          type: 'String'
+          position: 549
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo05'
+          type: 'String'
+          position: 579
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo06'
+          type: 'String'
+          position: 609
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo07'
+          type: 'String'
+          position: 639
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo08'
+          type: 'String'
+          position: 669
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo09'
+          type: 'String'
+          position: 699
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionCargo10'
+          type: 'String'
+          position: 729
+          length: 30
+          defaultValue: '                              '
+        - name: 'valorCargo01'
+          type: 'Numeric'
+          position: 759
+          length: 11
+          defaultValue: '+000000.660'
+        - name: 'valorCargo02'
+          type: 'Numeric'
+          position: 770
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo03'
+          type: 'Numeric'
+          position: 781
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo04'
+          type: 'Numeric'
+          position: 792
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo05'
+          type: 'Numeric'
+          position: 803
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo06'
+          type: 'Numeric'
+          position: 814
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo07'
+          type: 'Numeric'
+          position: 825
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo08'
+          type: 'Numeric'
+          position: 836
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo09'
+          type: 'Numeric'
+          position: 847
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'valorCargo10'
+          type: 'Numeric'
+          position: 858
+          length: 11
+          defaultValue: '+000000.000'
+        - name: 'montoCargo01'
+          type: 'Numeric'
+          position: 869
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo02'
+          type: 'Numeric'
+          position: 886
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo03'
+          type: 'Numeric'
+          position: 903
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo04'
+          type: 'Numeric'
+          position: 920
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo05'
+          type: 'Numeric'
+          position: 937
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo06'
+          type: 'Numeric'
+          position: 954
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo07'
+          type: 'Numeric'
+          position: 971
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo08'
+          type: 'Numeric'
+          position: 988
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo09'
+          type: 'Numeric'
+          position: 1005
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoCargo10'
+          type: 'Numeric'
+          position: 1022
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'mesNoPago1'
+          type: 'Numeric'
+          position: 1039
+          length: 3
+          defaultValue: '+00'
+        - name: 'mesNoPago2'
+          type: 'Numeric'
+          position: 1042
+          length: 3
+          defaultValue: '+00'
+        - name: 'mesNoPago3'
+          type: 'Numeric'
+          position: 1045
+          length: 3
+          defaultValue: '+00'
+        - name: 'reajustabilidadMoneda'
+          type: 'String'
+          position: 1048
+          length: 1
+          defaultValue: 'N'
+        - name: 'clienteLineaMult'
+          type: 'Numeric'
+          position: 1049
+          length: 10
+          defaultValue: '+000000000'
+        - name: 'numeroLineaMultt'
+          type: 'Numeric'
+          position: 1059
+          length: 5
+          defaultValue: '+0000'
+        - name: 'bancoPago'
+          type: 'String'
+          position: 1064
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaPago'
+          type: 'Numeric'
+          position: 1066
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaPago'
+          type: 'String'
+          position: 1070
+          length: 3
+          defaultValue: '   '
+        - name: 'cuentaContablePago'
+          type: 'Numeric'
+          position: 1073
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'bancoGastos'
+          type: 'String'
+          position: 1090
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaGastos'
+          type: 'Numeric'
+          position: 1092
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaGastos'
+          type: 'String'
+          position: 1096
+          length: 3
+          defaultValue: '   '
+        - name: 'cuentaDeGastos'
+          type: 'Numeric'
+          position: 1099
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'codigoDeduccion01'
+          type: 'String'
+          position: 1116
+          length: 4
+          defaultValue: 'C02 '
+        - name: 'codigoDeduccion02'
+          type: 'String'
+          position: 1120
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion03'
+          type: 'String'
+          position: 1124
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion04'
+          type: 'String'
+          position: 1128
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion05'
+          type: 'String'
+          position: 1132
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion06'
+          type: 'String'
+          position: 1136
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion07'
+          type: 'String'
+          position: 1140
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion08'
+          type: 'String'
+          position: 1144
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion09'
+          type: 'String'
+          position: 1148
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeduccion10'
+          type: 'String'
+          position: 1152
+          length: 4
+          defaultValue: '    '
+        - name: 'descripcionDeduccion01'
+          type: 'String'
+          position: 1156
+          length: 30
+          defaultValue: 'SEGURO CREDITO CUBIERTO       '
+        - name: 'descripcionDeduccion02'
+          type: 'String'
+          position: 1186
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion03'
+          type: 'String'
+          position: 1216
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion04'
+          type: 'String'
+          position: 1246
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion05'
+          type: 'String'
+          position: 1276
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion06'
+          type: 'String'
+          position: 1306
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion07'
+          type: 'String'
+          position: 1336
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion08'
+          type: 'String'
+          position: 1366
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion09'
+          type: 'String'
+          position: 1396
+          length: 30
+          defaultValue: '                              '
+        - name: 'descripcionDeduccion10'
+          type: 'String'
+          position: 1426
+          length: 30
+          defaultValue: '                              '
+        - name: 'valorDeduccion01'
+          type: 'Numeric'
+          position: 1456
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion02'
+          type: 'Numeric'
+          position: 1473
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion03'
+          type: 'Numeric'
+          position: 1490
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion04'
+          type: 'Numeric'
+          position: 1507
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion05'
+          type: 'Numeric'
+          position: 1524
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion06'
+          type: 'Numeric'
+          position: 1541
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion07'
+          type: 'Numeric'
+          position: 1558
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion08'
+          type: 'Numeric'
+          position: 1575
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion09'
+          type: 'Numeric'
+          position: 1592
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'valorDeduccion10'
+          type: 'Numeric'
+          position: 1609
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'montoDeduccion01'
+          type: 'Numeric'
+          position: 1626
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion02'
+          type: 'Numeric'
+          position: 1643
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion03'
+          type: 'Numeric'
+          position: 1660
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion04'
+          type: 'Numeric'
+          position: 1677
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion05'
+          type: 'Numeric'
+          position: 1694
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion06'
+          type: 'Numeric'
+          position: 1711
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion07'
+          type: 'Numeric'
+          position: 1728
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion08'
+          type: 'Numeric'
+          position: 1745
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion09'
+          type: 'Numeric'
+          position: 1762
+          length: 17
+          defaultValue: '                 '
+        - name: 'montoDeduccion10'
+          type: 'Numeric'
+          position: 1779
+          length: 17
+          defaultValue: '                 '
+        - name: 'tasaDeMora'
+          type: 'Numeric'
+          position: 1796
+          length: 9
+          defaultValue: '+00000.00'
+        - name: 'tipoMora'
+          type: 'String'
+          position: 1805
+          length: 1
+          defaultValue: 'X'
+        - name: 'direccionCorreo'
+          type: 'String'
+          position: 1806
+          length: 1
+          defaultValue: '0'
+        - name: 'centroDeCostos'
+          type: 'Numeric'
+          position: 1807
+          length: 9
+          defaultValue: '12820    '
+        - name: 'fechaRevision'
+          type: 'Numeric'
+          position: 1816
+          length: 7
+          defaultValue: '+000000'
+        - name: 'cicloRevisionTasa'
+          type: 'String'
+          position: 1823
+          length: 3
+          defaultValue: '   '
+        - name: 'origenFondos'
+          type: 'String'
+          position: 1826
+          length: 4
+          defaultValue: '    '
+        - name: 'destinoFondos'
+          type: 'String'
+          position: 1830
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoUsuario3'
+          type: 'String'
+          position: 1834
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoUsuario4'
+          type: 'String'
+          position: 1838
+          length: 6
+          defaultValue: '      '
+        - name: 'codigoUsuario5'
+          type: 'String'
+          position: 1844
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoUsuario6'
+          type: 'String'
+          position: 1848
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoUsuario7'
+          type: 'String'
+          position: 1852
+          length: 4
+          defaultValue: '0000'
+        - name: 'numeroReferencia'
+          type: 'String'
+          position: 1856
+          length: 12
+          defaultValue: '            '
+        - name: 'montoCuota'
+          type: 'Numeric'
+          position: 1868
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'inclusionInteresesEnPago'
+          type: 'String'
+          position: 1885
+          length: 1
+          defaultValue: 'N'
+        - name: 'totalComisiones'
+          type: 'Numeric'
+          position: 1886
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'totalImpuestos'
+          type: 'Numeric'
+          position: 1903
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'totalNotario'
+          type: 'Numeric'
+          position: 1920
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'tasaMaximaConvencional'
+          type: 'Numeric'
+          position: 1937
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'plazoPromedioPonderado'
+          type: 'Numeric'
+          position: 1948
+          length: 8
+          defaultValue: '+0000000'
+        - name: 'codigoComisionista'
+          type: 'String'
+          position: 1956
+          length: 4
+          defaultValue: 'N   '
+        - name: 'rut01CobroSeguro'
+          type: 'String'
+          position: 1960
+          length: 15
+        - name: 'rut02CobroSeguro'
+          type: 'String'
+          position: 1975
+          length: 15
+          defaultValue: '               '
+        - name: 'rut03CobroSeguro'
+          type: 'String'
+          position: 1990
+          length: 15
+          defaultValue: '               '
+        - name: 'rut04CobroSeguro'
+          type: 'String'
+          position: 2005
+          length: 15
+          defaultValue: '               '
+        - name: 'rut05CobroSeguro'
+          type: 'String'
+          position: 2020
+          length: 15
+          defaultValue: '               '
+        - name: 'rut06CobroSeguro'
+          type: 'String'
+          position: 2035
+          length: 15
+          defaultValue: '               '
+        - name: 'rut07CobroSeguro'
+          type: 'String'
+          position: 2050
+          length: 15
+          defaultValue: '               '
+        - name: 'rut08CobroSeguro'
+          type: 'String'
+          position: 2065
+          length: 15
+          defaultValue: '               '
+        - name: 'rut09CobroSeguro'
+          type: 'String'
+          position: 2080
+          length: 15
+          defaultValue: '               '
+        - name: 'rut10CobroSeguro'
+          type: 'String'
+          position: 2095
+          length: 15
+          defaultValue: '               '
+        - name: 'rut11CobroSeguro'
+          type: 'String'
+          position: 2110
+          length: 15
+          defaultValue: '               '
+        - name: 'rut12CobroSeguro'
+          type: 'String'
+          position: 2125
+          length: 15
+          defaultValue: '               '
+        - name: 'rut13CobroSeguro'
+          type: 'String'
+          position: 2140
+          length: 15
+          defaultValue: '               '
+        - name: 'rut14CobroSeguro'
+          type: 'String'
+          position: 2155
+          length: 15
+          defaultValue: '               '
+        - name: 'rut15CobroSeguro'
+          type: 'String'
+          position: 2170
+          length: 15
+          defaultValue: '               '
+        - name: 'porcentajeAval01'
+          type: 'Numeric'
+          position: 2185
+          length: 11
+          defaultValue: '+100.000000'
+        - name: 'porcentajeAval02'
+          type: 'Numeric'
+          position: 2196
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval03'
+          type: 'Numeric'
+          position: 2207
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval04'
+          type: 'Numeric'
+          position: 2218
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval05'
+          type: 'Numeric'
+          position: 2229
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval06'
+          type: 'Numeric'
+          position: 2240
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval07'
+          type: 'Numeric'
+          position: 2251
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval08'
+          type: 'Numeric'
+          position: 2262
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval09'
+          type: 'Numeric'
+          position: 2273
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval10'
+          type: 'Numeric'
+          position: 2284
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval11'
+          type: 'Numeric'
+          position: 2295
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval12'
+          type: 'Numeric'
+          position: 2306
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval13'
+          type: 'Numeric'
+          position: 2317
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval14'
+          type: 'Numeric'
+          position: 2328
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeAval15'
+          type: 'Numeric'
+          position: 2339
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp01'
+          type: 'Numeric'
+          position: 2350
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp02'
+          type: 'Numeric'
+          position: 2361
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp03'
+          type: 'Numeric'
+          position: 2372
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp04'
+          type: 'Numeric'
+          position: 2383
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp05'
+          type: 'Numeric'
+          position: 2394
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp06'
+          type: 'Numeric'
+          position: 2405
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp07'
+          type: 'Numeric'
+          position: 2416
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp08'
+          type: 'Numeric'
+          position: 2427
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp09'
+          type: 'Numeric'
+          position: 2438
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp10'
+          type: 'Numeric'
+          position: 2449
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp11'
+          type: 'Numeric'
+          position: 2460
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp12'
+          type: 'Numeric'
+          position: 2471
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp13'
+          type: 'Numeric'
+          position: 2482
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp14'
+          type: 'Numeric'
+          position: 2493
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcentajeSobp15'
+          type: 'Numeric'
+          position: 2504
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'tipoAvalCodIgo01'
+          type: 'String'
+          position: 2515
+          length: 1
+          defaultValue: 'H'
+        - name: 'tipoAvalCodIgo02'
+          type: 'String'
+          position: 2516
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo03'
+          type: 'String'
+          position: 2517
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo04'
+          type: 'String'
+          position: 2518
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo05'
+          type: 'String'
+          position: 2519
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo06'
+          type: 'String'
+          position: 2520
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo07'
+          type: 'String'
+          position: 2521
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo08'
+          type: 'String'
+          position: 2522
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo09'
+          type: 'String'
+          position: 2523
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo10'
+          type: 'String'
+          position: 2524
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo11'
+          type: 'String'
+          position: 2525
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo12'
+          type: 'String'
+          position: 2526
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo13'
+          type: 'String'
+          position: 2527
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo14'
+          type: 'String'
+          position: 2528
+          length: 1
+          defaultValue: ' '
+        - name: 'tipoAvalCodIgo15'
+          type: 'String'
+          position: 2529
+          length: 1
+          defaultValue: ' '
+        - name: 'cuentaCteLinea'
+          type: 'Numeric'
+          position: 2530
+          length: 13
+          defaultValue: '+000000000000'
+        - name: 'saldoLineaOSobregiro'
+          type: 'Numeric'
+          position: 2543
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'glosaTasaFlotante'
+          type: 'String'
+          position: 2560
+          length: 35
+          defaultValue: '                                   '
+        - name: 'estadoDelCredito'
+          type: 'String'
+          position: 2595
+          length: 1
+          defaultValue: ' '
+        - name: 'descripcionProducto'
+          type: 'String'
+          position: 2596
+          length: 40
+          defaultValue: '                                        '
+        - name: 'productoCuentasCorrientes'
+          type: 'String'
+          position: 2636
+          length: 4
+          defaultValue: '    '
+        - name: 'comisionMantencionLineaCredito'
+          type: 'Numeric'
+          position: 2640
+          length: 5
+          defaultValue: '+0000'
+        - name: 'tipoDesembolso'
+          type: 'String'
+          position: 2645
+          length: 1
+          defaultValue: 'N'
+        - name: 'tipoDeCuotas'
+          type: 'String'
+          position: 2646
+          length: 1
+          defaultValue: ' '
+        - name: 'valorSegundaCuota'
+          type: 'Numeric'
+          position: 2647
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'fechaAplic2cuota'
+          type: 'Numeric'
+          position: 2664
+          length: 7
+          defaultValue: '+000000'
+        - name: 'codigoUniversidad'
+          type: 'String'
+          position: 2671
+          length: 4
+          defaultValue: '    '
+        - name: 'codigoDeCarrera'
+          type: 'String'
+          position: 2675
+          length: 4
+          defaultValue: '    '
+        - name: 'regimenEstudios'
+          type: 'String'
+          position: 2679
+          length: 1
+          defaultValue: ' '
+        - name: 'rutDealer'
+          type: 'Numeric'
+          position: 2680
+          length: 10
+          defaultValue: '+000000000'
+        - name: 'rutVendedorDealer'
+          type: 'Numeric'
+          position: 2690
+          length: 10
+          defaultValue: '+000000000'
+        - name: 'numeroSolicitud'
+          type: 'Numeric'
+          position: 2700
+          length: 13
+          defaultValue: '+000000000000'
+        - name: 'sucursalDealer'
+          type: 'String'
+          position: 2713
+          length: 4
+          defaultValue: '    '
+        - name: 'tasaMinina'
+          type: 'Numeric'
+          position: 2717
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'tasaDesFlujo'
+          type: 'Numeric'
+          position: 2728
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'montoSolicitud'
+          type: 'Numeric'
+          position: 2739
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'tasaDeComision'
+          type: 'Numeric'
+          position: 2756
+          length: 11
+          defaultValue: '+000000000 '
+        - name: 'montoComision'
+          type: 'Numeric'
+          position: 2767
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'marcaAutomotriz'
+          type: 'String'
+          position: 2784
+          length: 20
+          defaultValue: '                    '
+        - name: 'modelo'
+          type: 'String'
+          position: 2804
+          length: 20
+          defaultValue: '                    '
+        - name: 'anoFabricacion'
+          type: 'Numeric'
+          position: 2824
+          length: 5
+          defaultValue: '+0000'
+        - name: 'montoAfecImpto'
+          type: 'Numeric'
+          position: 2829
+          length: 16
+          defaultValue: '+000000000000000'
+        - name: 'porcentajeDeCuoton'
+          type: 'Numeric'
+          position: 2845
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'valorCuoton'
+          type: 'Numeric'
+          position: 2856
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'fechaValorCred'
+          type: 'Numeric'
+          position: 2873
+          length: 7
+          defaultValue: '+000000'
+        - name: 'viaDeAbono'
+          type: 'String'
+          position: 2880
+          length: 1
+          defaultValue: '2'
+        - name: 'tipoFormatoChGere'
+          type: 'String'
+          position: 2881
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapartida'
+          type: 'String'
+          position: 2882
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart'
+          type: 'Numeric'
+          position: 2884
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContraparti'
+          type: 'String'
+          position: 2888
+          length: 3
+          defaultValue: '   '
+        - name: 'cuentaContrapartida'
+          type: 'Numeric'
+          position: 2891
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono0'
+          type: 'Numeric'
+          position: 2908
+          length: 17
+        - name: 'abonoAdicional1'
+          type: 'String'
+          position: 2925
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv1'
+          type: 'String'
+          position: 2926
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart1'
+          type: 'String'
+          position: 2927
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart1'
+          type: 'Numeric'
+          position: 2929
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart1'
+          type: 'String'
+          position: 2933
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida1'
+          type: 'Numeric'
+          position: 2936
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono1'
+          type: 'Numeric'
+          position: 2953
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional2'
+          type: 'String'
+          position: 2970
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv2'
+          type: 'String'
+          position: 2971
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart2'
+          type: 'String'
+          position: 2972
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart2'
+          type: 'Numeric'
+          position: 2974
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart2'
+          type: 'String'
+          position: 2978
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida2'
+          type: 'Numeric'
+          position: 2981
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono2'
+          type: 'Numeric'
+          position: 2998
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional3'
+          type: 'String'
+          position: 3015
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv3'
+          type: 'String'
+          position: 3016
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart3'
+          type: 'String'
+          position: 3017
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart3'
+          type: 'Numeric'
+          position: 3019
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart3'
+          type: 'String'
+          position: 3023
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida3'
+          type: 'Numeric'
+          position: 3026
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono3'
+          type: 'Numeric'
+          position: 3043
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional4'
+          type: 'String'
+          position: 3060
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv4'
+          type: 'String'
+          position: 3061
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart4'
+          type: 'String'
+          position: 3062
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart4'
+          type: 'Numeric'
+          position: 3064
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart4'
+          type: 'String'
+          position: 3068
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida4'
+          type: 'Numeric'
+          position: 3071
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono4'
+          type: 'Numeric'
+          position: 3088
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional5'
+          type: 'String'
+          position: 3105
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv5'
+          type: 'String'
+          position: 3106
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart5'
+          type: 'String'
+          position: 3107
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart5'
+          type: 'Numeric'
+          position: 3109
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart5'
+          type: 'String'
+          position: 3113
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida5'
+          type: 'Numeric'
+          position: 3116
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono5'
+          type: 'Numeric'
+          position: 3133
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional6'
+          type: 'String'
+          position: 3150
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv6'
+          type: 'String'
+          position: 3151
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart6'
+          type: 'String'
+          position: 3152
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart6'
+          type: 'Numeric'
+          position: 3154
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart6'
+          type: 'String'
+          position: 3158
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida6'
+          type: 'Numeric'
+          position: 3161
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono6'
+          type: 'Numeric'
+          position: 3178
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional7'
+          type: 'String'
+          position: 3195
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv7'
+          type: 'String'
+          position: 3196
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart7'
+          type: 'String'
+          position: 3197
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart7'
+          type: 'Numeric'
+          position: 3199
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart7'
+          type: 'String'
+          position: 3203
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida7'
+          type: 'Numeric'
+          position: 3206
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono7'
+          type: 'Numeric'
+          position: 3223
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional8'
+          type: 'String'
+          position: 3240
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv8'
+          type: 'String'
+          position: 3241
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart8'
+          type: 'String'
+          position: 3242
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart8'
+          type: 'Numeric'
+          position: 3244
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart8'
+          type: 'String'
+          position: 3248
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida8'
+          type: 'Numeric'
+          position: 3251
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono8'
+          type: 'Numeric'
+          position: 3268
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'abonoAdicional9'
+          type: 'String'
+          position: 3285
+          length: 1
+          defaultValue: ' '
+        - name: 'formatoVv9'
+          type: 'String'
+          position: 3286
+          length: 1
+          defaultValue: ' '
+        - name: 'bancoContrapart9'
+          type: 'String'
+          position: 3287
+          length: 2
+          defaultValue: '  '
+        - name: 'oficinaContrapart9'
+          type: 'Numeric'
+          position: 3289
+          length: 4
+          defaultValue: '+000'
+        - name: 'monedaContrapart9'
+          type: 'String'
+          position: 3293
+          length: 3
+          defaultValue: '   '
+        - name: 'ctaContrapartida9'
+          type: 'Numeric'
+          position: 3296
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'montoAbono9'
+          type: 'Numeric'
+          position: 3313
+          length: 17
+          defaultValue: '+0000000000000.00'
+        - name: 'campoDisponible'
+          type: 'String'
+          position: 3330
+          length: 50
+          defaultValue: '                                                  '
+        - name: 'grpProdEstudlicit'
+          type: 'String'
+          position: 3380
+          length: 1
+          defaultValue: ' '
+        - name: 'numeroLicitacionCorfo'
+          type: 'Numeric'
+          position: 3381
+          length: 11
+          defaultValue: '+0000000000'
+        - name: 'montoMaximoGiro'
+          type: 'Numeric'
+          position: 3392
+          length: 19
+          defaultValue: '+0000000000000.0000'
+        - name: 'periodicidadGiro'
+          type: 'String'
+          position: 3411
+          length: 1
+          defaultValue: 'S'
+        - name: 'porcGarantizFisco'
+          type: 'Numeric'
+          position: 3412
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'dispPorLicitacion'
+          type: 'Numeric'
+          position: 3423
+          length: 23
+          defaultValue: '+00000000000000000.0000'
+        - name: 'destinoCreditoNuevo'
+          type: 'String'
+          position: 3446
+          length: 4
+          defaultValue: '00  '
+        - name: 'idCreditoConEscritura'
+          type: 'String'
+          position: 3450
+          length: 1
+          defaultValue: 'N'
+        - name: 'numeroSolicitudDistribucionDeFondos'
+          type: 'Numeric'
+          position: 3451
+          length: 13
+          defaultValue: '+000000000000'
+        - name: 'cuentaSolicitudDistribucionDeFondos'
+          type: 'Numeric'
+          position: 3464
+          length: 17
+          defaultValue: '+0000000000000000'
+        - name: 'destinoCreditoVigente'
+          type: 'String'
+          position: 3481
+          length: 4
+          defaultValue: '    '
+        - name: 'sectorEconomico'
+          type: 'String'
+          position: 3485
+          length: 4
+          defaultValue: '0000'
+        - name: 'idTipoDeEmpresa'
+          type: 'String'
+          position: 3489
+          length: 4
+          defaultValue: '    '
+        - name: 'secParamLicitacion'
+          type: 'Numeric'
+          position: 3493
+          length: 3
+          defaultValue: '   '
+        - name: 'codLicitacInterna'
+          type: 'String'
+          position: 3496
+          length: 18
+          defaultValue: '                  '
+        - name: 'porcPagoComision'
+          type: 'Numeric'
+          position: 3514
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'porcRubroMaxsecE'
+          type: 'Numeric'
+          position: 3525
+          length: 11
+          defaultValue: '+000.000000'
+        - name: 'dispXSectorEcono'
+          type: 'Numeric'
+          position: 3536
+          length: 23
+          defaultValue: '+000000000000000.000000'
+        - name: 'codLicitacInterna2'
+          type: 'String'
+          position: 3559
+          length: 18
+          defaultValue: '                  '
+        - name: 'dispPorLic2'
+          type: 'Numeric'
+          position: 3577
+          length: 23
+          defaultValue: '+00000000000000000.0000'
+        - name: 'dispXSectorEcono2'
+          type: 'Numeric'
+          position: 3600
+          length: 23
+          defaultValue: '+00000000000000000.0000'
+        - name: 'tipoCuota'
+          type: 'String'
+          position: 3623
+          length: 1
+          defaultValue: ' '
+        - name: 'ctaAlt1flxMin'
+          type: 'Numeric'
+          position: 3624
+          length: 15
+          defaultValue: '               '
+        - name: 'ctatalt2flxMax'
+          type: 'Numeric'
+          position: 3639
+          length: 15
+          defaultValue: '+00000000000.00'
+        - name: 'mesesCuotaAlt01'
+          type: 'Numeric'
+          position: 3654
+          length: 5
+          defaultValue: '+0000'
+        - name: 'mesesCuotaAlt02'
+          type: 'Numeric'
+          position: 3659
+          length: 5
+          defaultValue: '+0000'
+        - name: 'tipoConvenio'
+          type: 'String'
+          position: 3664
+          length: 10
+          defaultValue: '          '
+        - name: 'codigoConvenio'
+          type: 'String'
+          position: 3674
+          length: 10
+          defaultValue: '          '
+        - name: 'codigoDescuentoConvenio'
+          type: 'String'
+          position: 3684
+          length: 10
+          defaultValue: '          '
+  - output:
+      matchers:
+        - type: 'returnValue'
+          condition: 'equal'
+          value: '0'
+          fields:
+            - name: 'masInformacion':
+              type: 'String'
+              position: 4
+              length: 1
+              trimRequired: true
+            - name: 'flag1':
+              type: 'String'
+              position: 5
+              length: 1
+              trimRequired: true
+            - name: 'flag2':
+              type: 'String'
+              position: 6
+              length: 1
+              trimRequired: true
+            - name: 'flag3':
+              type: 'String'
+              position: 7
+              length: 1
+              trimRequired: true
+            - name: 'canal':
+              type: 'String'
+              position: 8
+              length: 4
+              trimRequired: true
+            - name: 'mode':
+              type: 'String'
+              position: 12
+              length: 1
+              trimRequired: true
+            - name: 'error01':
+              type: 'Numeric'
+              position: 13
+              length: 5
+              format: '#'
+            - name: 'error02':
+              type: 'Numeric'
+              position: 18
+              length: 5
+              format: '#'
+            - name: 'error03':
+              type: 'Numeric'
+              position: 23
+              length: 5
+              format: '#'
+            - name: 'error04':
+              type: 'Numeric'
+              position: 28
+              length: 5
+              format: '#'
+            - name: 'errorCodigo05':
+              type: 'Numeric'
+              position: 33
+              length: 5
+              format: '#'
+            - name: 'descripcionError01':
+              type: 'String'
+              position: 38
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError02':
+              type: 'String'
+              position: 88
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError03':
+              type: 'String'
+              position: 138
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError04':
+              type: 'String'
+              position: 188
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError05':
+              type: 'String'
+              position: 238
+              length: 50
+              trimRequired: true
+            - name: 'numeroPrestamo':
+              type: 'Numeric'
+              position: 288
+              length: 13
+              format: '#'
+            - name: 'numeroCliente':
+              type: 'Numeric'
+              position: 301
+              length: 10
+              format: '#'
+            - name: 'numeroRut':
+              type: 'String'
+              position: 311
+              length: 15
+              trimRequired: true
+            - name: 'codigoOficial':
+              type: 'String'
+              position: 326
+              length: 4
+              trimRequired: true
+            - name: 'codigoBanco':
+              type: 'String'
+              position: 330
+              length: 2
+              trimRequired: true
+            - name: 'numeroSucursal':
+              type: 'Numeric'
+              position: 332
+              length: 4
+              format: '#'
+            - name: 'codigoMoneda':
+              type: 'String'
+              position: 336
+              length: 3
+              trimRequired: true
+            - name: 'cuentaContable':
+              type: 'Numeric'
+              position: 339
+              length: 17
+              format: '#'
+            - name: 'codigoProducto':
+              type: 'String'
+              position: 356
+              length: 4
+              trimRequired: true
+            - name: 'montoDelCredito':
+              type: 'Numeric'
+              position: 360
+              length: 17
+              format: '###############.##'
+            - name: 'fechaApertura':
+              type: 'Numeric'
+              position: 377
+              length: 7
+              format: '#'
+            - name: 'fechaVencimiento':
+              type: 'Numeric'
+              position: 384
+              length: 7
+              format: '#'
+            - name: 'fechaPrimerPagoInteres':
+              type: 'Numeric'
+              position: 391
+              length: 7
+              format: '#'
+            - name: 'fechaPrimerPagoPrincipal':
+              type: 'Numeric'
+              position: 398
+              length: 7
+              format: '#'
+            - name: 'numeroCuotasInteres':
+              type: 'Numeric'
+              position: 405
+              length: 4
+              format: '#'
+            - name: 'numeroCuotasPrincipal':
+              type: 'Numeric'
+              position: 409
+              length: 4
+              format: '#'
+            - name: 'frecuenciaPagosInteres':
+              type: 'Numeric'
+              position: 413
+              length: 5
+              format: '#'
+            - name: 'termPagosInteres':
+              type: 'String'
+              position: 418
+              length: 1
+              trimRequired: true
+            - name: 'frecuenciaPagosPrincipal':
+              type: 'Numeric'
+              position: 419
+              length: 5
+              format: '#'
+            - name: 'termPagosPrincipal':
+              type: 'String'
+              position: 424
+              length: 1
+              trimRequired: true
+            - name: 'cicloPagoCapital':
+              type: 'String'
+              position: 425
+              length: 3
+              trimRequired: true
+            - name: 'cicloPagoInteres':
+              type: 'String'
+              position: 428
+              length: 3
+              trimRequired: true
+            - name: 'tasaBase':
+              type: 'Numeric'
+              position: 431
+              length: 11
+              format: '#####.######'
+            - name: 'tasaFlotante':
+              type: 'Numeric'
+              position: 442
+              length: 11
+              format: '#####.######'
+            - name: 'tipoTasaFlotante':
+              type: 'String'
+              position: 453
+              length: 2
+              trimRequired: true
+            - name: 'numeroTablaFlotante':
+              type: 'String'
+              position: 455
+              length: 2
+              trimRequired: true
+            - name: 'tablaCargos':
+              type: 'String'
+              position: 457
+              length: 2
+              trimRequired: true
+            - name: 'descripcionCargo01':
+              type: 'String'
+              position: 459
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo02':
+              type: 'String'
+              position: 489
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo03':
+              type: 'String'
+              position: 519
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo04':
+              type: 'String'
+              position: 549
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo05':
+              type: 'String'
+              position: 579
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo06':
+              type: 'String'
+              position: 609
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo07':
+              type: 'String'
+              position: 639
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo08':
+              type: 'String'
+              position: 669
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo09':
+              type: 'String'
+              position: 699
+              length: 30
+              trimRequired: true
+            - name: 'descripcionCargo10':
+              type: 'String'
+              position: 729
+              length: 30
+              trimRequired: true
+            - name: 'valorCargo01':
+              type: 'Numeric'
+              position: 759
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo02':
+              type: 'Numeric'
+              position: 770
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo03':
+              type: 'Numeric'
+              position: 781
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo04':
+              type: 'Numeric'
+              position: 792
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo05':
+              type: 'Numeric'
+              position: 803
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo06':
+              type: 'Numeric'
+              position: 814
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo07':
+              type: 'Numeric'
+              position: 825
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo08':
+              type: 'Numeric'
+              position: 836
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo09':
+              type: 'Numeric'
+              position: 847
+              length: 11
+              format: '########.###'
+            - name: 'valorCargo10':
+              type: 'Numeric'
+              position: 858
+              length: 11
+              format: '########.###'
+            - name: 'montoCargo01':
+              type: 'Numeric'
+              position: 869
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo02':
+              type: 'Numeric'
+              position: 886
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo03':
+              type: 'Numeric'
+              position: 903
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo04':
+              type: 'Numeric'
+              position: 920
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo05':
+              type: 'Numeric'
+              position: 937
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo06':
+              type: 'Numeric'
+              position: 954
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo07':
+              type: 'Numeric'
+              position: 971
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo08':
+              type: 'Numeric'
+              position: 988
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo09':
+              type: 'Numeric'
+              position: 1005
+              length: 17
+              format: '###############.##'
+            - name: 'montoCargo10':
+              type: 'Numeric'
+              position: 1022
+              length: 17
+              format: '###############.##'
+            - name: 'mesNoPago1':
+              type: 'Numeric'
+              position: 1039
+              length: 3
+              format: '#'
+            - name: 'mesNoPago2':
+              type: 'Numeric'
+              position: 1042
+              length: 3
+              format: '#'
+            - name: 'mesNoPago3':
+              type: 'Numeric'
+              position: 1045
+              length: 3
+              format: '#'
+            - name: 'reajustabilidadMoneda':
+              type: 'String'
+              position: 1048
+              length: 1
+              trimRequired: true
+            - name: 'clienteLineaMult':
+              type: 'Numeric'
+              position: 1049
+              length: 10
+              format: '#'
+            - name: 'numeroLineaMultt':
+              type: 'Numeric'
+              position: 1059
+              length: 5
+              format: '#'
+            - name: 'bancoPago':
+              type: 'String'
+              position: 1064
+              length: 2
+              trimRequired: true
+            - name: 'oficinaPago':
+              type: 'Numeric'
+              position: 1066
+              length: 4
+              format: '#'
+            - name: 'monedaPago':
+              type: 'String'
+              position: 1070
+              length: 3
+              trimRequired: true
+            - name: 'cuentaContablePago':
+              type: 'Numeric'
+              position: 1073
+              length: 17
+              format: '#'
+            - name: 'bancoGastos':
+              type: 'String'
+              position: 1090
+              length: 2
+              trimRequired: true
+            - name: 'oficinaGastos':
+              type: 'Numeric'
+              position: 1092
+              length: 4
+              format: '#'
+            - name: 'monedaGastos':
+              type: 'String'
+              position: 1096
+              length: 3
+              trimRequired: true
+            - name: 'cuentaDeGastos':
+              type: 'Numeric'
+              position: 1099
+              length: 17
+              format: '#'
+            - name: 'codigoDeduccion01':
+              type: 'String'
+              position: 1116
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion02':
+              type: 'String'
+              position: 1120
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion03':
+              type: 'String'
+              position: 1124
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion04':
+              type: 'String'
+              position: 1128
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion05':
+              type: 'String'
+              position: 1132
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion06':
+              type: 'String'
+              position: 1136
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion07':
+              type: 'String'
+              position: 1140
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion08':
+              type: 'String'
+              position: 1144
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion09':
+              type: 'String'
+              position: 1148
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeduccion10':
+              type: 'String'
+              position: 1152
+              length: 4
+              trimRequired: true
+            - name: 'descripcionDeduccion01':
+              type: 'String'
+              position: 1156
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion02':
+              type: 'String'
+              position: 1186
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion03':
+              type: 'String'
+              position: 1216
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion04':
+              type: 'String'
+              position: 1246
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion05':
+              type: 'String'
+              position: 1276
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion06':
+              type: 'String'
+              position: 1306
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion07':
+              type: 'String'
+              position: 1336
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion08':
+              type: 'String'
+              position: 1366
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion09':
+              type: 'String'
+              position: 1396
+              length: 30
+              trimRequired: true
+            - name: 'descripcionDeduccion10':
+              type: 'String'
+              position: 1426
+              length: 30
+              trimRequired: true
+            - name: 'valorDeduccion01':
+              type: 'Numeric'
+              position: 1456
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion02':
+              type: 'Numeric'
+              position: 1473
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion03':
+              type: 'Numeric'
+              position: 1490
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion04':
+              type: 'Numeric'
+              position: 1507
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion05':
+              type: 'Numeric'
+              position: 1524
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion06':
+              type: 'Numeric'
+              position: 1541
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion07':
+              type: 'Numeric'
+              position: 1558
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion08':
+              type: 'Numeric'
+              position: 1575
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion09':
+              type: 'Numeric'
+              position: 1592
+              length: 17
+              format: '###########.######'
+            - name: 'valorDeduccion10':
+              type: 'Numeric'
+              position: 1609
+              length: 17
+              format: '###########.######'
+            - name: 'montoDeduccion01':
+              type: 'Numeric'
+              position: 1626
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion02':
+              type: 'Numeric'
+              position: 1643
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion03':
+              type: 'Numeric'
+              position: 1660
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion04':
+              type: 'Numeric'
+              position: 1677
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion05':
+              type: 'Numeric'
+              position: 1694
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion06':
+              type: 'Numeric'
+              position: 1711
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion07':
+              type: 'Numeric'
+              position: 1728
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion08':
+              type: 'Numeric'
+              position: 1745
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion09':
+              type: 'Numeric'
+              position: 1762
+              length: 17
+              format: '###############.##'
+            - name: 'montoDeduccion10':
+              type: 'Numeric'
+              position: 1779
+              length: 17
+              format: '###############.##'
+            - name: 'tasaDeMora':
+              type: 'Numeric'
+              position: 1796
+              length: 9
+              format: '#######.##'
+            - name: 'tipoMora':
+              type: 'String'
+              position: 1805
+              length: 1
+              trimRequired: true
+            - name: 'direccionCorreo':
+              type: 'String'
+              position: 1806
+              length: 1
+              trimRequired: true
+            - name: 'centroDeCostos':
+              type: 'Numeric'
+              position: 1807
+              length: 9
+              format: '#'
+            - name: 'fechaRevision':
+              type: 'Numeric'
+              position: 1816
+              length: 7
+              format: '#'
+            - name: 'cicloRevisionTasa':
+              type: 'String'
+              position: 1823
+              length: 3
+              trimRequired: true
+            - name: 'origenFondos':
+              type: 'String'
+              position: 1826
+              length: 4
+              trimRequired: true
+            - name: 'destinoFondos':
+              type: 'String'
+              position: 1830
+              length: 4
+              trimRequired: true
+            - name: 'codigoUsuario3':
+              type: 'String'
+              position: 1834
+              length: 4
+              trimRequired: true
+            - name: 'codigoUsuario4':
+              type: 'String'
+              position: 1838
+              length: 6
+              trimRequired: true
+            - name: 'codigoUsuario5':
+              type: 'String'
+              position: 1844
+              length: 4
+              trimRequired: true
+            - name: 'codigoUsuario6':
+              type: 'String'
+              position: 1848
+              length: 4
+              trimRequired: true
+            - name: 'codigoUsuario7':
+              type: 'String'
+              position: 1852
+              length: 4
+              trimRequired: true
+            - name: 'numeroReferencia':
+              type: 'String'
+              position: 1856
+              length: 12
+              trimRequired: true
+            - name: 'montoCuota':
+              type: 'Numeric'
+              position: 1868
+              length: 17
+              format: '###############.##'
+            - name: 'inclusionInteresesEnPago':
+              type: 'String'
+              position: 1885
+              length: 1
+              trimRequired: true
+            - name: 'totalComisiones':
+              type: 'Numeric'
+              position: 1886
+              length: 17
+              format: '###############.##'
+            - name: 'totalImpuestos':
+              type: 'Numeric'
+              position: 1903
+              length: 17
+              format: '###############.##'
+            - name: 'totalNotario':
+              type: 'Numeric'
+              position: 1920
+              length: 17
+              format: '###############.##'
+            - name: 'tasaMaximaConvencional':
+              type: 'Numeric'
+              position: 1937
+              length: 11
+              format: '#####.######'
+            - name: 'plazoPromedioPonderado':
+              type: 'Numeric'
+              position: 1948
+              length: 8
+              format: '#'
+            - name: 'codigoComisionista':
+              type: 'String'
+              position: 1956
+              length: 4
+              trimRequired: true
+            - name: 'rut01CobroSeguro':
+              type: 'String'
+              position: 1960
+              length: 15
+              trimRequired: true
+            - name: 'rut02CobroSeguro':
+              type: 'String'
+              position: 1975
+              length: 15
+              trimRequired: true
+            - name: 'rut03CobroSeguro':
+              type: 'String'
+              position: 1990
+              length: 15
+              trimRequired: true
+            - name: 'rut04CobroSeguro':
+              type: 'String'
+              position: 2005
+              length: 15
+              trimRequired: true
+            - name: 'rut05CobroSeguro':
+              type: 'String'
+              position: 2020
+              length: 15
+              trimRequired: true
+            - name: 'rut06CobroSeguro':
+              type: 'String'
+              position: 2035
+              length: 15
+              trimRequired: true
+            - name: 'rut07CobroSeguro':
+              type: 'String'
+              position: 2050
+              length: 15
+              trimRequired: true
+            - name: 'rut08CobroSeguro':
+              type: 'String'
+              position: 2065
+              length: 15
+              trimRequired: true
+            - name: 'rut09CobroSeguro':
+              type: 'String'
+              position: 2080
+              length: 15
+              trimRequired: true
+            - name: 'rut10CobroSeguro':
+              type: 'String'
+              position: 2095
+              length: 15
+              trimRequired: true
+            - name: 'rut11CobroSeguro':
+              type: 'String'
+              position: 2110
+              length: 15
+              trimRequired: true
+            - name: 'rut12CobroSeguro':
+              type: 'String'
+              position: 2125
+              length: 15
+              trimRequired: true
+            - name: 'rut13CobroSeguro':
+              type: 'String'
+              position: 2140
+              length: 15
+              trimRequired: true
+            - name: 'rut14CobroSeguro':
+              type: 'String'
+              position: 2155
+              length: 15
+              trimRequired: true
+            - name: 'rut15CobroSeguro':
+              type: 'String'
+              position: 2170
+              length: 15
+              trimRequired: true
+            - name: 'porcentajeAval01':
+              type: 'Numeric'
+              position: 2185
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval02':
+              type: 'Numeric'
+              position: 2196
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval03':
+              type: 'Numeric'
+              position: 2207
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval04':
+              type: 'Numeric'
+              position: 2218
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval05':
+              type: 'Numeric'
+              position: 2229
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval06':
+              type: 'Numeric'
+              position: 2240
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval07':
+              type: 'Numeric'
+              position: 2251
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval08':
+              type: 'Numeric'
+              position: 2262
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval09':
+              type: 'Numeric'
+              position: 2273
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval10':
+              type: 'Numeric'
+              position: 2284
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval11':
+              type: 'Numeric'
+              position: 2295
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval12':
+              type: 'Numeric'
+              position: 2306
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval13':
+              type: 'Numeric'
+              position: 2317
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval14':
+              type: 'Numeric'
+              position: 2328
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeAval15':
+              type: 'Numeric'
+              position: 2339
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp01':
+              type: 'Numeric'
+              position: 2350
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp02':
+              type: 'Numeric'
+              position: 2361
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp03':
+              type: 'Numeric'
+              position: 2372
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp04':
+              type: 'Numeric'
+              position: 2383
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp05':
+              type: 'Numeric'
+              position: 2394
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp06':
+              type: 'Numeric'
+              position: 2405
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp07':
+              type: 'Numeric'
+              position: 2416
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp08':
+              type: 'Numeric'
+              position: 2427
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp09':
+              type: 'Numeric'
+              position: 2438
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp10':
+              type: 'Numeric'
+              position: 2449
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp11':
+              type: 'Numeric'
+              position: 2460
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp12':
+              type: 'Numeric'
+              position: 2471
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp13':
+              type: 'Numeric'
+              position: 2482
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp14':
+              type: 'Numeric'
+              position: 2493
+              length: 11
+              format: '#####.######'
+            - name: 'porcentajeSobp15':
+              type: 'Numeric'
+              position: 2504
+              length: 11
+              format: '#####.######'
+            - name: 'tipoAvalCodIgo01':
+              type: 'String'
+              position: 2515
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo02':
+              type: 'String'
+              position: 2516
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo03':
+              type: 'String'
+              position: 2517
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo04':
+              type: 'String'
+              position: 2518
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo05':
+              type: 'String'
+              position: 2519
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo06':
+              type: 'String'
+              position: 2520
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo07':
+              type: 'String'
+              position: 2521
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo08':
+              type: 'String'
+              position: 2522
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo09':
+              type: 'String'
+              position: 2523
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo10':
+              type: 'String'
+              position: 2524
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo11':
+              type: 'String'
+              position: 2525
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo12':
+              type: 'String'
+              position: 2526
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo13':
+              type: 'String'
+              position: 2527
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo14':
+              type: 'String'
+              position: 2528
+              length: 1
+              trimRequired: true
+            - name: 'tipoAvalCodIgo15':
+              type: 'String'
+              position: 2529
+              length: 1
+              trimRequired: true
+            - name: 'cuentaCteLinea':
+              type: 'Numeric'
+              position: 2530
+              length: 13
+              format: '#'
+            - name: 'saldoLineaOSobregiro':
+              type: 'Numeric'
+              position: 2543
+              length: 17
+              format: '###############.##'
+            - name: 'glosaTasaFlotante':
+              type: 'String'
+              position: 2560
+              length: 35
+              trimRequired: true
+            - name: 'estadoDelCredito':
+              type: 'String'
+              position: 2595
+              length: 1
+              trimRequired: true
+            - name: 'descripcionProducto':
+              type: 'String'
+              position: 2596
+              length: 40
+              trimRequired: true
+            - name: 'productoCuentasCorrientes':
+              type: 'String'
+              position: 2636
+              length: 4
+              trimRequired: true
+            - name: 'comisionMantencionLineaCredito':
+              type: 'Numeric'
+              position: 2640
+              length: 5
+              format: '#'
+            - name: 'tipoDesembolso':
+              type: 'String'
+              position: 2645
+              length: 1
+              trimRequired: true
+            - name: 'tipoDeCuotas':
+              type: 'String'
+              position: 2646
+              length: 1
+              trimRequired: true
+            - name: 'valorSegundaCuota':
+              type: 'Numeric'
+              position: 2647
+              length: 17
+              format: '###############.##'
+            - name: 'fechaAplic2cuota':
+              type: 'Numeric'
+              position: 2664
+              length: 7
+              format: '#'
+            - name: 'codigoUniversidad':
+              type: 'String'
+              position: 2671
+              length: 4
+              trimRequired: true
+            - name: 'codigoDeCarrera':
+              type: 'String'
+              position: 2675
+              length: 4
+              trimRequired: true
+            - name: 'regimenEstudios':
+              type: 'String'
+              position: 2679
+              length: 1
+              trimRequired: true
+            - name: 'rutDealer':
+              type: 'Numeric'
+              position: 2680
+              length: 10
+              format: '#'
+            - name: 'rutVendedorDealer':
+              type: 'Numeric'
+              position: 2690
+              length: 10
+              format: '#'
+            - name: 'numeroSolicitud':
+              type: 'Numeric'
+              position: 2700
+              length: 13
+              format: '#'
+            - name: 'sucursalDealer':
+              type: 'String'
+              position: 2713
+              length: 4
+              trimRequired: true
+            - name: 'tasaMinina':
+              type: 'Numeric'
+              position: 2717
+              length: 11
+              format: '#####.######'
+            - name: 'tasaDesFlujo':
+              type: 'Numeric'
+              position: 2728
+              length: 11
+              format: '#####.######'
+            - name: 'montoSolicitud':
+              type: 'Numeric'
+              position: 2739
+              length: 17
+              format: '###############.##'
+            - name: 'tasaDeComision':
+              type: 'Numeric'
+              position: 2756
+              length: 11
+              format: '#####.######'
+            - name: 'montoComision':
+              type: 'Numeric'
+              position: 2767
+              length: 17
+              format: '###############.##'
+            - name: 'marcaAutomotriz':
+              type: 'String'
+              position: 2784
+              length: 20
+              trimRequired: true
+            - name: 'modelo':
+              type: 'String'
+              position: 2804
+              length: 20
+              trimRequired: true
+            - name: 'anoFabricacion':
+              type: 'Numeric'
+              position: 2824
+              length: 5
+              format: '#'
+            - name: 'montoAfecImpto':
+              type: 'Numeric'
+              position: 2829
+              length: 16
+              format: '#'
+            - name: 'porcentajeDeCuoton':
+              type: 'Numeric'
+              position: 2845
+              length: 11
+              format: '#####.######'
+            - name: 'valorCuoton':
+              type: 'Numeric'
+              position: 2856
+              length: 17
+              format: '###############.##'
+            - name: 'fechaValorCred':
+              type: 'Numeric'
+              position: 2873
+              length: 7
+              format: '#'
+            - name: 'viaDeAbono':
+              type: 'String'
+              position: 2880
+              length: 1
+              trimRequired: true
+            - name: 'tipoFormatoChGere':
+              type: 'String'
+              position: 2881
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapartida':
+              type: 'String'
+              position: 2882
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart':
+              type: 'Numeric'
+              position: 2884
+              length: 4
+              format: '#'
+            - name: 'monedaContraparti':
+              type: 'String'
+              position: 2888
+              length: 3
+              trimRequired: true
+            - name: 'cuentaContrapartida':
+              type: 'Numeric'
+              position: 2891
+              length: 17
+              format: '#'
+            - name: 'montoAbono0':
+              type: 'Numeric'
+              position: 2908
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional1':
+              type: 'String'
+              position: 2925
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv1':
+              type: 'String'
+              position: 2926
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart1':
+              type: 'String'
+              position: 2927
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart1':
+              type: 'Numeric'
+              position: 2929
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart1':
+              type: 'String'
+              position: 2933
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida1':
+              type: 'Numeric'
+              position: 2936
+              length: 17
+              format: '#'
+            - name: 'montoAbono1':
+              type: 'Numeric'
+              position: 2953
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional2':
+              type: 'String'
+              position: 2970
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv2':
+              type: 'String'
+              position: 2971
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart2':
+              type: 'String'
+              position: 2972
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart2':
+              type: 'Numeric'
+              position: 2974
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart2':
+              type: 'String'
+              position: 2978
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida2':
+              type: 'Numeric'
+              position: 2981
+              length: 17
+              format: '#'
+            - name: 'montoAbono2':
+              type: 'Numeric'
+              position: 2998
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional3':
+              type: 'String'
+              position: 3015
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv3':
+              type: 'String'
+              position: 3016
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart3':
+              type: 'String'
+              position: 3017
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart3':
+              type: 'Numeric'
+              position: 3019
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart3':
+              type: 'String'
+              position: 3023
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida3':
+              type: 'Numeric'
+              position: 3026
+              length: 17
+              format: '#'
+            - name: 'montoAbono3':
+              type: 'Numeric'
+              position: 3043
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional4':
+              type: 'String'
+              position: 3060
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv4':
+              type: 'String'
+              position: 3061
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart4':
+              type: 'String'
+              position: 3062
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart4':
+              type: 'Numeric'
+              position: 3064
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart4':
+              type: 'String'
+              position: 3068
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida4':
+              type: 'Numeric'
+              position: 3071
+              length: 17
+              format: '#'
+            - name: 'montoAbono4':
+              type: 'Numeric'
+              position: 3088
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional5':
+              type: 'String'
+              position: 3105
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv5':
+              type: 'String'
+              position: 3106
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart5':
+              type: 'String'
+              position: 3107
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart5':
+              type: 'Numeric'
+              position: 3109
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart5':
+              type: 'String'
+              position: 3113
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida5':
+              type: 'Numeric'
+              position: 3116
+              length: 17
+              format: '#'
+            - name: 'montoAbono5':
+              type: 'Numeric'
+              position: 3133
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional6':
+              type: 'String'
+              position: 3150
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv6':
+              type: 'String'
+              position: 3151
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart6':
+              type: 'String'
+              position: 3152
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart6':
+              type: 'Numeric'
+              position: 3154
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart6':
+              type: 'String'
+              position: 3158
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida6':
+              type: 'Numeric'
+              position: 3161
+              length: 17
+              format: '#'
+            - name: 'montoAbono6':
+              type: 'Numeric'
+              position: 3178
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional7':
+              type: 'String'
+              position: 3195
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv7':
+              type: 'String'
+              position: 3196
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart7':
+              type: 'String'
+              position: 3197
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart7':
+              type: 'Numeric'
+              position: 3199
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart7':
+              type: 'String'
+              position: 3203
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida7':
+              type: 'Numeric'
+              position: 3206
+              length: 17
+              format: '#'
+            - name: 'montoAbono7':
+              type: 'Numeric'
+              position: 3223
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional8':
+              type: 'String'
+              position: 3240
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv8':
+              type: 'String'
+              position: 3241
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart8':
+              type: 'String'
+              position: 3242
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart8':
+              type: 'Numeric'
+              position: 3244
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart8':
+              type: 'String'
+              position: 3248
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida8':
+              type: 'Numeric'
+              position: 3251
+              length: 17
+              format: '#'
+            - name: 'montoAbono8':
+              type: 'Numeric'
+              position: 3268
+              length: 17
+              format: '###############.##'
+            - name: 'abonoAdicional9':
+              type: 'String'
+              position: 3285
+              length: 1
+              trimRequired: true
+            - name: 'formatoVv9':
+              type: 'String'
+              position: 3286
+              length: 1
+              trimRequired: true
+            - name: 'bancoContrapart9':
+              type: 'String'
+              position: 3287
+              length: 2
+              trimRequired: true
+            - name: 'oficinaContrapart9':
+              type: 'Numeric'
+              position: 3289
+              length: 4
+              format: '#'
+            - name: 'monedaContrapart9':
+              type: 'String'
+              position: 3293
+              length: 3
+              trimRequired: true
+            - name: 'ctaContrapartida9':
+              type: 'Numeric'
+              position: 3296
+              length: 17
+              format: '#'
+            - name: 'montoAbono9':
+              type: 'Numeric'
+              position: 3313
+              length: 17
+              format: '###############.##'
+            - name: 'campoDisponible':
+              type: 'String'
+              position: 3330
+              length: 50
+              trimRequired: true
+            - name: 'grpProdEstudlicit':
+              type: 'String'
+              position: 3380
+              length: 1
+              trimRequired: true
+            - name: 'numeroLicitacionCorfo':
+              type: 'Numeric'
+              position: 3381
+              length: 11
+              format: '#'
+            - name: 'montoMaximoGiro':
+              type: 'Numeric'
+              position: 3392
+              length: 19
+              format: '###############.####'
+            - name: 'periodicidadGiro':
+              type: 'String'
+              position: 3411
+              length: 1
+              trimRequired: true
+            - name: 'porcGarantizFisco':
+              type: 'Numeric'
+              position: 3412
+              length: 11
+              format: '#####.######'
+            - name: 'dispPorLicitacion':
+              type: 'Numeric'
+              position: 3423
+              length: 23
+              format: '###################.####'
+            - name: 'destinoCreditoNuevo':
+              type: 'String'
+              position: 3446
+              length: 4
+              trimRequired: true
+            - name: 'idCreditoConEscritura':
+              type: 'String'
+              position: 3450
+              length: 1
+              trimRequired: true
+            - name: 'numeroSolicitudDistribucionDeFondos':
+              type: 'Numeric'
+              position: 3451
+              length: 13
+              format: '#'
+            - name: 'cuentaSolicitudDistribucionDeFondos':
+              type: 'Numeric'
+              position: 3464
+              length: 17
+              format: '#'
+            - name: 'destinoCreditoVigente':
+              type: 'String'
+              position: 3481
+              length: 4
+              trimRequired: true
+            - name: 'sectorEconomico':
+              type: 'String'
+              position: 3485
+              length: 4
+              trimRequired: true
+            - name: 'idTipoDeEmpresa':
+              type: 'String'
+              position: 3489
+              length: 4
+              trimRequired: true
+            - name: 'secParamLicitacion':
+              type: 'Numeric'
+              position: 3493
+              length: 3
+              format: '#'
+            - name: 'codLicitacInterna':
+              type: 'String'
+              position: 3496
+              length: 18
+              trimRequired: true
+            - name: 'porcPagoComision':
+              type: 'Numeric'
+              position: 3514
+              length: 11
+              format: '#####.######'
+            - name: 'porcRubroMaxsecE':
+              type: 'Numeric'
+              position: 3525
+              length: 11
+              format: '#####.######'
+            - name: 'dispXSectorEcono':
+              type: 'Numeric'
+              position: 3536
+              length: 23
+              format: '###################.####'
+            - name: 'codLicitacInterna2':
+              type: 'String'
+              position: 3559
+              length: 18
+              trimRequired: true
+            - name: 'dispPorLic2':
+              type: 'Numeric'
+              position: 3577
+              length: 23
+              format: '###################.####'
+            - name: 'dispXSectorEcono2':
+              type: 'Numeric'
+              position: 3600
+              length: 23
+              format: '###################.####'
+            - name: 'tipoCuota':
+              type: 'String'
+              position: 3623
+              length: 1
+              trimRequired: true
+            - name: 'ctaAlt1flxMin':
+              type: 'Numeric'
+              position: 3624
+              length: 15
+              format: '#############.##'
+            - name: 'ctatalt2flxMax':
+              type: 'Numeric'
+              position: 3639
+              length: 15
+              format: '#############.##'
+            - name: 'mesesCuotaAlt01':
+              type: 'Numeric'
+              position: 3654
+              length: 5
+              format: '#'
+            - name: 'mesesCuotaAlt02':
+              type: 'Numeric'
+              position: 3659
+              length: 5
+              format: '#'
+            - name: 'tipoConvenio':
+              type: 'String'
+              position: 3664
+              length: 10
+              trimRequired: true
+            - name: 'codigoConvenio':
+              type: 'String'
+              position: 3674
+              length: 10
+              trimRequired: true
+            - name: 'codigoDescuentoConvenio':
+              type: 'String'
+              position: 3684
+              length: 10
+              trimRequired: true
+        - type: 'returnValue'
+          condition: 'notEqual'
+          value: '0'
+          fields:
+          condition: 'equal'
+          value: '0'
+          fields:
+            - name: 'error01':
+              type: 'Numeric'
+              position: 13
+              length: 5
+              format: '#'
+            - name: 'error02':
+              type: 'Numeric'
+              position: 18
+              length: 5
+              format: '#'
+            - name: 'error03':
+              type: 'Numeric'
+              position: 23
+              length: 5
+              format: '#'
+            - name: 'error04':
+              type: 'Numeric'
+              position: 28
+              length: 5
+              format: '#'
+            - name: 'errorCodigo05':
+              type: 'Numeric'
+              position: 33
+              length: 5
+              format: '#'
+            - name: 'descripcionError01':
+              type: 'String'
+              position: 38
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError02':
+              type: 'String'
+              position: 88
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError03':
+              type: 'String'
+              position: 138
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError04':
+              type: 'String'
+              position: 188
+              length: 50
+              trimRequired: true
+            - name: 'descripcionError05':
+              type: 'String'
+              position: 238
+              length: 50
+              trimRequired: true
