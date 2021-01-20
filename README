@@ -21,6 +21,12 @@ copiar trama de entrada en hoja inputTrama en fila 1 columna A
 copiar trama de salida en hoja outputTrama en fila 1 columna A
 ```
 
+````
+Antes se limpian los campos del nombre algunos caracteres detectados que se tienen que modificar son " / acentos % #"
+https://textedit.tools/camelcase Pagina para corregir la nomenclatura de nombres a LOWERCAMELLCASE.
+
+```
+
 ### Instalación 🔧
 
 _Pasos de instalación_

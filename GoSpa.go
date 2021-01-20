@@ -156,7 +156,7 @@ func leerInputFileXlsx() {
 		}
 
 		if equal == "true" {
-			cadenaYml += "            - name: '"+name+"':\n"
+			cadenaYml += "            - name: '"+name+"'\n"
 			if(tipo == "CHAR") {
 				tipo = "String"
 				cadenaYml += "              type: '"+tipo+"'\n"
@@ -215,9 +215,6 @@ func leerInputFileXlsx() {
 	cadenaYml += "          condition: 'notEqual'\n"
 	cadenaYml += "          value: '0'\n"
 	cadenaYml += "          fields:\n"
-	cadenaYml += "          condition: 'equal'\n"
-	cadenaYml += "          value: '0'\n"
-	cadenaYml += "          fields:\n"
 
 	k := filaInicial
 	for k < len(rowsOutputMapping) {
@@ -234,7 +231,7 @@ func leerInputFileXlsx() {
 		}
 
 		if notequal == "true" {
-			cadenaYml += "            - name: '"+name+"':\n"
+			cadenaYml += "            - name: '"+name+"'\n"
 			if(tipo == "CHAR") {
 				tipo = "String"
 				cadenaYml += "              type: '"+tipo+"'\n"
