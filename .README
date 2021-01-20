@@ -1,0 +1,78 @@
+# GoSpa
+_Script para realizar labores de DATAMAPPING para SPA (ScotiaProAdapterV1)_
+
+## Comenzando 🚀
+_Estas instrucciones te permitirán obtener una copia del script en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._ 
+
+Mira la sección **Ejecución** para conocer como correr el script.
+
+### Pre-requisitos 📋
+
+_Los siguientes Pre-requsitos son estrictos y se deben tener en consideración_
+
+```
+Se require usar la PLANTILLA BASE ubicada en GoSpa/temp_input_file/DATAMAPPING.xlsx, no se puede renombrar este archivo y ncesita ser .xlsx, los nombres de las hojas de este libreo tampoco se pueden renombrar ya que el script para funcionar busca y relaciona cada hoja por su nombre. Se debe respetar el orden de las columnas y tambien se tiene que contar con Los DATAMAPPING DE ENTRADA Y DE SALIDA junto con su TRAMA RESPECTIVA PARA CADA UNNO.
+```
+
+```
+copiar trama de entrada en hoja inputTrama en fila 1 columna A
+```
+```
+copiar trama de salida en hoja outputTrama en fila 1 columna A
+```
+
+### Instalación 🔧
+
+_Pasos de instalación_
+
+1.- Decargar e instalar GO desde (https://golang.org/)
+
+```
+Sitio oficial https://golang.org/dl/
+````
+
+2.- Descargar script, repositorio git
+```
+git clone https://github.com/icicaf/GoSpa.git
+````
+
+3.- Instalar librerias
+```
+go get github.com/360EntSecGroup-Skylar/excelize/v2
+````
+
+4.- Instalar dependencias
+
+```
+go get github.com/360EntSecGroup-Skylar/excelize/v2
+````
+
+5.- Algunos problemas detectados durante la instalación
+```
+Al ejecutar el paso cuatro no se clona la rama v2 por lo que una solución es poder cargar manualmente esta dependencia realizando primero la descarga de esa rama v2, descomprimir y renombrar caperta a v2 y copiarla al directorio go/src/github.com/360EntSecGroup-Skylar/excelize y que quede de esta forma go/src/github.com/360EntSecGroup-Skylar/excelize/v2.
+Luego de instalar manualmente la libreria se requerira la instalación de otras dependencias las que se pueden instalar con el siguiente comando > go get "nombre de la dependecia". Estas apareceran en consola al ejecutar el programa. Mira la sección **Ejecución** para conocer como correr el script.
+```
+## Ejecución 📦
+
+Abre una terminal y ejecuta el siguiente comando dentro del directorio GoSpa
+```
+go run GoSpa.go
+```
+
+## Ejecución finalizada 📦
+
+Dentro del directorio GoSpa/temp_out_files/ encontraras los ficheros:
+
+**SERVICIO.yml** - Archivo con la definición del servicio (input, output)
+**INPUT.json** - Archivo con el Json para el test de entrada.
+**OUTPUT.json** - Archivo con Json para el test de salida
+
+## Construido con 🛠️
+
+_Las siguientes herramientas fueron utilizadas_
+
+* [Go](https://golang.org/) - Lenguaje utilizado
+* [360EntSecGroup-Skylar/excelize/v2](https://github.com/360EntSecGroup-Skylar/excelize) - Libreria para trabajar con archivos .xlsx
+
+## Trabajos Futuros
+* [pendiente](pendiente) - Manejador de dependencias pendiente para mejorar la facilidad de instalación de dependencias de este script
