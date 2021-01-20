@@ -16,8 +16,8 @@ var path_temp_out_files string = path+"/temp_out_files/"
 
 var file_xlsx string = "DATAMAPPING.xlsx"
 var file_yml string = "SERVICIO.yml"
-var file_json string = "SERVICIO.json"
-var file_json_2 string = "SERVICIO-2.json"
+var file_json string = "INPUT.json"
+var file_json_2 string = "OUTPUT.json"
 
 var inputTrama string = ""
 var outputTrama string = ""
